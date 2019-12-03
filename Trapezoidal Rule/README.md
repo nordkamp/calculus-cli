@@ -16,6 +16,13 @@ When entering equations, use correct python syntax as if you were giving it to t
 ```python
 (z**2)*math.exp(z)
 ```
+**IMPORTANT: When entering equations make sure to remember Python's order of operations!**
+If you have a negative domain, make sure to encase your variable in parentheses so the order of operations is correct.
+e.g.
+```python
+sqrt(25-(z)**2)
+```
+Would be what one would right for sqrt(25-z^2) if one had a negative domain, say from -5 to 5. Ensure you are inputting your equation in a way that Python's order of operations will be correct, otherwise you will get an incorrect answer.
 
 ## C version
 The C version of this program is much faster than the Python version given that C is a compiled language rather than an interpreted one. However, the consequence of this is that at this time, taking the function as a user input has not been implemented. Instead, one must specify the equation manually in the *TrapezoidalRulev3.h* header file, modifying the eq1() function accordingly in proper C syntax. The previous example written in C looks as such:
