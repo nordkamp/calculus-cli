@@ -25,7 +25,7 @@ def main():
     expression = input("Enter expression (in terms of z): ")
     points = int(input("Enter number of random points: "))
     # Ask the user for the upper and lower range of both the x and y axis. They should be seperated by commas, i.e. 2,4 or 1,2 etc.
-    xdomain, yrange = input("Enter upper and lower x bounds (separated by commas): "), input("Enter upper and lower y bounds (separated by commas): ")
+    xdomain, yrange = input("Enter lower and upper x bounds (separated by commas): "), input("Enter lower and upper y bounds (separated by commas): ")
     # Get the upper and lower bounds from the user input by splitting the strings by ',' then store the proper values to their own variables through list indexes.
     xlower, xupper = float(xdomain.split(',')[0]), float(xdomain.split(',')[-1])
     ylower, yupper = float(yrange.split(',')[0]), float(yrange.split(',')[-1])
