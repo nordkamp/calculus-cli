@@ -11,9 +11,9 @@ Furthermore, these applications will allow you to complete these tasks with arbi
 If you have a negative domain, make sure to encase your variable in parentheses so the order of operations is correct.
 e.g.
 ```python
-math.sqrt(25-(z)**2)
+sqrt(25-(x)**2)
 ```
-Would be what one would right for sqrt(25-z^2) if one had a negative domain, say from -5 to 5. Ensure you are inputting your equation in a way that Python's order of operations will be correct, otherwise you will get an incorrect answer.
+Would be what one would right for sqrt(25-x^2) if one had a negative domain, say from -5 to 5. Ensure you are inputting your equation in a way that Python's order of operations will be correct, otherwise you will get an incorrect answer.
 
 There are programs found here that can do a myriad of things under the umbrella of calculus. They are listed in sections below:
 
