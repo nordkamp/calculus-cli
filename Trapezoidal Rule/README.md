@@ -49,6 +49,7 @@ double eq1(double x) {
  When compiling, remember to tell GCC or whatever compiler you use to link the required header files.
  
  ## Installing and Usage
+ Clone the repository if you haven't already:
  ```
  git clone https://github.com/nordkamp/calculus-cli
  cd calculus-cli/
