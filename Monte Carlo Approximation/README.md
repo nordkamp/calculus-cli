@@ -48,7 +48,7 @@ Alternatively, it can be opened and run in any Python interpreter like IDLE.
 Example output can be seen below:
 ```
 $ python3 MonteCarlov2.py
-Enter expression (in terms of x): math.sqrt(25-(x)**2)
+Enter expression (in terms of x): sqrt(25-(x)**2)
 Enter number of random points: 434343
 Enter lower and upper x bounds (separated by commas): -5,5
 Enter lower and upper y bounds (separated by commas): 0,5
