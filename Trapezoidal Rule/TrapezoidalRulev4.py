@@ -15,12 +15,12 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 """
 #import required libraries
-import math
+from math import *
 
 def main():
     global expression
-    #ask user for expression to evaluate in terms of 'z' and make it a global variable
-    expression = input("Enter expression: ")
+    #ask user for expression to evaluate in terms of 'x' and make it a global variable
+    expression = input("Enter expression (in terms of x): ")
     #ask user to input starting x value (inclusive)
     startx = float(input("Enter lower bound: "))
     #ask user to input ending x value (inclusive)
@@ -48,10 +48,9 @@ def area2x(lower, upper, h):
     return a2x
 
 #The main equation function, this is where the evaluating of the expression will happen.
-def eq1(z):
-    #Replaces all instances of the string "z" with the value of the variable z which was passed as a parameter. Then,
+def eq1(x):
     #evaluates the expression and returns this number back to the program.
-    return float(eval(expression.replace("z", str(z))))
+    return float(eval(expression))
 #Calls main() to initiate the program.
 main()
 
