@@ -4,7 +4,7 @@ and height will be the length between the highest y value and the lowest y value
 fit underneath the curve. Then, you find out what fraction of the rectangle's whole area these approximately make up and boom, there's your answer.
 
 The Python version of this program will allow you 
-to input custom domains, ranges and equations on-the-fly so you don't have to modify the source code to run a simulation.
+to input custom domains, ranges, equations and number of random points on-the-fly so you don't have to modify the source code to run a simulation.
 
 A visualization can be seen below:
 
