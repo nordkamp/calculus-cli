@@ -1,28 +1,25 @@
 """ Monte-Carlo Integration Approximation Python version 2
     Copyright (C) 2019 Matthew Hoffman (https://github.com/nordkamp/)
-
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
     the Free Software Foundation, either version 3 of the License, or
     (at your option) any later version.
-
     This program is distributed in the hope that it will be useful,
     but WITHOUT ANY WARRANTY; without even the implied warranty of
     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
     GNU General Public License for more details.
-
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 """
 # import required libraries
-import math
+from math import *
 from random import uniform
 
 def main():
     # set expression and points as global vars, they are used in multiple other functions.
     global expression, points
-    # Ask the user for the expression in terms of 'z' and the number of random points
-    expression = input("Enter expression (in terms of z): ")
+    # Ask the user for the expression in terms of 'x' and the number of random points
+    expression = input("Enter expression (in terms of x): ")
     points = int(input("Enter number of random points: "))
     # Ask the user for the upper and lower range of both the x and y axis. They should be seperated by commas, i.e. 2,4 or 1,2 etc.
     xdomain, yrange = input("Enter lower and upper x bounds (separated by commas): "), input("Enter lower and upper y bounds (separated by commas): ")
@@ -63,7 +60,7 @@ def pointcheck(pointslist):
 
 def eq1(x):
     # When called, this function takes in 'x' as an argument and evaluates the user-defined equation using its argument.
-    return float(eval(expression.replace("z", str(x))))
+    return float(eval(expression))
 
 # Calls main() to initiate the program.
 main()
