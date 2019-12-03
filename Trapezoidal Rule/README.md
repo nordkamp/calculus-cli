@@ -10,11 +10,11 @@ The latest Python version of this program requires the libraries 'math'. Install
 
 It also is able to take custom mathematical expressions via the use of the eval() function. This function is used to execute python code stored as a string; only enter maths equations or it will break. 
 
-Math is imported into namespace, so instead of math.log() you would just type log() for a lograthim, exp() for Euler's number, etc.
+Math is imported into namespace, so instead of math.sin() you would just type sin(), exp() instead of math.exp(), etc.
 
 **THE EQUATION YOU GIVE MUST BE IN TERMS OF 'x'.**
 
-When entering equations, use correct python syntax as if you were giving it to the intepreter, i.e. to use Euler's number you would input math.exp(number), for logarithms one would type math.log(number), powers are x\*\*y, etc. An example can be seen below:
+When entering equations, use correct python syntax as if you were giving it to the intepreter, i.e. to use Euler's number you would input exp(number), for logarithms one would type log(number), powers are x\*\*y, etc. An example can be seen below:
 ```python
 (x**2)*exp(x)
 ```
