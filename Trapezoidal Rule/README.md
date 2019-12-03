@@ -1,7 +1,6 @@
 # trapezoidalrule-cli
-A collection of CLI programs written in various languages (Python and C) that compute the Trapezoidal (or Trapezium) Rule for approximating the area under a curve. These projects are licensed under GPL v3, so do whatever you want with them under that license.
 
-These programs were written as a solution to a question on a Mathematics assignment and as such they have not been tested for ALL possible equations/scenarios. That being said, from the limited testing done they are accurate.
+These programs were written as a solution to a question on a Mathematics assignment and as such they have not been tested for ALL possible equations/scenarios. That being said, from the testing done they are accurate.
 
 ![Trapezoidal Rule formula](http://andymath.com/wp-content/uploads/2019/08/Trapezoidal-Rule.jpg)
 
@@ -44,14 +43,15 @@ double eq1(double x) {
  
  ## Installing and Usage
  ```
- git clone https://github.com/nordkamp/trapezoidalrule-cli
- cd trapezoidalrule-cli/
+ git clone https://github.com/nordkamp/calculus-cli
+ cd calculus-cli/
+ cd Trapezoidal\ Rule/
  ```
  If you wish to use the Python version:
  ```
  python3 TrapezoidalRulev4.py
  ```
- Note: TrapezoidalRulev2.py is deprecated as it is innacurate, and is only being kept in this repo for the author's historical use/purpose. It is highly recommended you use version 4 instead.
+ Note: TrapezoidalRulev2.py is deprecated as it is innacurate, and is only being kept in this repo for the author's historical record/use. It is highly recommended you use version 4 instead.
  
  Alternatively, it can be opened and run in any Python interpreter like IDLE.
  If you wish to use the C version, change the equation in the header file, then:
