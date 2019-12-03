@@ -11,11 +11,11 @@ A visualization can be seen below:
 ![MonteCarlo Example](http://barnesanalytics.com/wp-content/uploads/2017/08/figure9_3.png)
 
 When entering equations, use correct python syntax as if you were giving it to the intepreter, i.e. to use Euler's number you would input math.exp(number), for logarithms one would type math.log(number), powers are x\*\*y, etc.
-All of your equations must be in terms of z to avoid conflicts with functions like math.log, math.sqrt, etc.
+All of your equations must be in terms of x.
 
-An example can be seen below:
+An example input equation can be seen below:
 ```python
-(z**2)*math.exp(z)
+(x**2)*exp(x)
 ```
 
 **IMPORTANT: When entering equations make sure to remember Python's order of operations!**
@@ -24,9 +24,9 @@ An example can be seen below:
 If you have a negative in your domain/range, make sure to encase your variable in parentheses so the order of operations is correct.
 e.g.
 ```python
-math.sqrt(25-(z)**2)
+sqrt(25-(x)**2)
 ```
-Would be what one would right for sqrt(25-z^2) if one had a negative domain, say from -5 to 5. Ensure you are inputting your equation in a way that 
+Would be what one would right for sqrt(25-x^2) if one had a negative domain, say from -5 to 5. Ensure you are inputting your equation in a way that 
 Python's order of operations will be correct, otherwise you will get an incorrect answer.
 
 ## Installation and Usage
@@ -48,7 +48,7 @@ Alternatively, it can be opened and run in any Python interpreter like IDLE.
 Example output can be seen below:
 ```
 $ python3 MonteCarlov2.py
-Enter expression (in terms of z): math.sqrt(25-(z)**2)
+Enter expression (in terms of x): math.sqrt(25-(x)**2)
 Enter number of random points: 434343
 Enter lower and upper x bounds (separated by commas): -5,5
 Enter lower and upper y bounds (separated by commas): 0,5
