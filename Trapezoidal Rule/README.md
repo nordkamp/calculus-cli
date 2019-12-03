@@ -8,21 +8,23 @@ These programs were written as a solution to a question on a Mathematics assignm
 
 The latest Python version of this program requires the libraries 'math'. Install it as a prerequisite if it is not already present on your system. This version is slower than the C version but is smaller and able to take custom function inputs without modifying the source code. If you are doing large computations with lots of strips (1,000,000+) or an unreasonably complex equation, please use the C version instead, you'll thank me later.
 
-It also is able to take custom mathematical expressions via the use of the eval() function. This function is used to execute python code stored as a string; only enter maths equations or it will break.
+It also is able to take custom mathematical expressions via the use of the eval() function. This function is used to execute python code stored as a string; only enter maths equations or it will break. 
 
-**THE EQUATION YOU GIVE MUST BE IN TERMS OF 'z'.**
+Math is imported into namespace, so instead of math.log() you would just type log() for a lograthim, exp() for Euler's number, etc.
+
+**THE EQUATION YOU GIVE MUST BE IN TERMS OF 'x'.**
 
 When entering equations, use correct python syntax as if you were giving it to the intepreter, i.e. to use Euler's number you would input math.exp(number), for logarithms one would type math.log(number), powers are x\*\*y, etc. An example can be seen below:
 ```python
-(z**2)*math.exp(z)
+(x**2)*exp(x)
 ```
 **IMPORTANT: When entering equations make sure to remember Python's order of operations!**
 If you have a negative domain, make sure to encase your variable in parentheses so the order of operations is correct.
 e.g.
 ```python
-math.sqrt(25-(z)**2)
+sqrt(25-(x)**2)
 ```
-Would be what one would right for sqrt(25-z^2) if one had a negative domain, say from -5 to 5. Ensure you are inputting your equation in a way that Python's order of operations will be correct, otherwise you will get an incorrect answer.
+Would be what one would right for sqrt(25-x^2) if one had a negative domain, say from -5 to 5. Ensure you are inputting your equation in a way that Python's order of operations will be correct, otherwise you will get an incorrect answer.
 
 ## C version
 The C version of this program is much faster than the Python version given that C is a compiled language rather than an interpreted one. However, the consequence of this is that at this time, taking the function as a user input has not been implemented. Instead, one must specify the equation manually in the *TrapezoidalRulev3.h* header file, modifying the eq1() function accordingly in proper C syntax. The previous example written in C looks as such:
