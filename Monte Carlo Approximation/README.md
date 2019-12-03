@@ -44,3 +44,15 @@ Note: MonteCarlov1.py is deprecated as it lacks features/functionality, and is o
 It is highly recommended you use version 2 instead.
 
 Alternatively, it can be opened and run in any Python interpreter like IDLE.
+
+Example output can be seen below:
+```
+$ python3 MonteCarlov2.py
+Enter expression (in terms of z): math.sqrt(25-(z)**2)
+Enter number of random points: 434343
+Enter lower and upper x bounds (separated by commas): -5,5
+Enter lower and upper y bounds (separated by commas): 0,5
+Points inside the curve: 340730 
+The area approximation is 39.22360899105085 units squared.
+```
+
