@@ -3,14 +3,14 @@ The theory behind Monte Carlo approximation is, you set a domain for your functi
 and height will be the length between the highest y value and the lowest y value. Next, generate a bunch of random points and see how many
 fit underneath the curve. Then, you find out what fraction of the rectangle's whole area these approximately make up and boom, there's your answer.
 
-The Python version of this program will allow you 
-to input custom domains, ranges, equations and number of random points on-the-fly so you don't have to modify the source code to run a simulation.
-
 A visualization can be seen below:
 
 ![MonteCarlo Example](http://barnesanalytics.com/wp-content/uploads/2017/08/figure9_3.png)
 
-When entering equations, use correct python syntax as if you were giving it to the intepreter, i.e. to use Euler's number you would input math.exp(number), for logarithms one would type math.log(number), powers are x\*\*y, etc.
+The Python version of this program will allow you 
+to input custom domains, ranges, equations and number of random points on-the-fly so you don't have to modify the source code to run a simulation.
+
+When entering equations, use correct python syntax as if you were giving it to the intepreter, i.e. to use Euler's number you would input exp(number), for logarithms one would type log(number), powers are x\*\*y, etc.
 All of your equations must be in terms of x.
 
 An example input equation can be seen below:
