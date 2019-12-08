@@ -80,6 +80,7 @@ $ ./MonteCarlov3
 ```
 Example output can be seen below:
 ```
+$ ./MonteCarlov3
 Enter number of random points: 4329023
 Enter the lower x bound: -5
 Enter the upper x bound: 5
