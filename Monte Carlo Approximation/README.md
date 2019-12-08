@@ -78,3 +78,13 @@ First, modify the equation in the source file found in the function eq1(). Then,
 $ gcc MonteCarlov3.c -lm -o MonteCarlov3
 $ ./MonteCarlov3
 ```
+Example output can be seen below:
+```
+Enter number of random points: 4329023
+Enter the lower x bound: -5
+Enter the upper x bound: 5
+Enter the lower y bound: 0
+Enter the upper y bound: 5
+Points inside the curve: 3399976
+The area estimate is: 39.269553
+```
