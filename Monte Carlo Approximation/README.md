@@ -57,7 +57,7 @@ Clone the repository if you haven't already:
  $ python3 MonteCarlov3.py
 ```
 Note: MonteCarlov1.py and MonteCarlov2.py are deprecated as they lack features/functionality and optimizations, and are only being kept in this repo for the author's historical record/use.
-It is highly recommended you use version 2 instead.
+It is highly recommended you use version 3 instead.
 
 Alternatively, it can be opened and run in any Python interpreter like IDLE.
 
