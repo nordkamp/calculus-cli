@@ -53,20 +53,20 @@ double eq1(double x) {
  ## Installing and Usage
  Clone the repository if you haven't already:
  ```
- git clone https://github.com/nordkamp/calculus-cli
- cd calculus-cli/
- cd Trapezoidal\ Rule/
+ $ git clone https://github.com/nordkamp/calculus-cli
+ $ cd calculus-cli/
+ $ cd Trapezoidal\ Rule/
  ```
  If you wish to use the Python version:
  ```
- python3 TrapezoidalRulev4.py
+ $ python3 TrapezoidalRulev4.py
  ```
  Note: TrapezoidalRulev2.py is deprecated as it is innacurate, and is only being kept in this repo for the author's historical record/use. It is highly recommended you use version 4 instead.
  
  Alternatively, it can be opened and run in any Python interpreter like IDLE.
  If you wish to use the C version, change the equation in the header file, then:
  ```
- cd C\ version/
- gcc TrapezoidalRulev3.c -lm -o TrapezoidalRulev3
- ./TrapezoidalRulev3
+ $ cd C\ version/
+ $ gcc TrapezoidalRulev3.c -lm -o TrapezoidalRulev3
+ $ ./TrapezoidalRulev3
  ```
