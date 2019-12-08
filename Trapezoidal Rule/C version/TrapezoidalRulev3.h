@@ -23,13 +23,3 @@ int area2x(double start, double end, double w) {
     printf("\nThe area estimate is: %5.9lf\n",areaest*0.5*w);
     return(0);
 }
-
-/* Experimental function to get a range of numbers to do maths on, made as a substitute for the range() function
-seen in the Python version. Works kinda similar to the area2x function but without the extra stuff for Trapezoidal Rule specifically. */
-int range(double start, double end, double w) {
-    double startx = start, endx = end, h = w;
-    for (; fabs(startx-(endx+h)) > 0.000001; startx = startx + h) {
-        printf("%5.9lf\n", startx);
-    }
-    return(0);
-}
