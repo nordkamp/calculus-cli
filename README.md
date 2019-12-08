@@ -19,6 +19,6 @@ There are programs found here that can do a myriad of things under the umbrella 
 
 ### Integration Approximation
 * Trapezoidal/Trapezium Rule (Python and C)
-* Monte Carlo Simulation (Python)
+* Monte Carlo Simulation (Python and C)
 
 Installation and Usage instructions can be found in the README.md of each application in their respective folders.
