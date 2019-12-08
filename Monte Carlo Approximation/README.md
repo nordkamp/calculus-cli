@@ -7,7 +7,7 @@ A visualization can be seen below:
 
 ![MonteCarlo Example](http://barnesanalytics.com/wp-content/uploads/2017/08/figure9_3.png)
 
-This program will allow you to do computation with arbitrarily large numbers of random points without heavy memory usage due to the way it is coded. Thus, memory usage is not really a concern with this applicaiton, even if you are doing computation with point counts upwards of 1 billion. If you are doing computation with a very large number of random points (10,000,000+) use the C version, it is far quicker, you will thank me later.
+This program will allow you to do computation with arbitrarily large numbers of random points without heavy memory usage due to the way it is coded. Thus, memory usage is not really a concern with this application, even if you are doing computation with point counts upwards of 1 billion. If you are doing computation with a very large number of random points (10,000,000+) use the C version, it is far quicker, you will thank me later.
 ## Python version
 The Python version of this program will allow you 
 to input custom domains, ranges, equations and number of random points on-the-fly so you don't have to modify the source code to run a simulation.
